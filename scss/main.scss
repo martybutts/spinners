@@ -1,4 +1,7 @@
 @import 'spinner-1';
+@import 'spinner-2';
+@import 'spinner-3';
+@import 'spinner-4';
 
 body {
   padding: 100px;
@@ -34,74 +37,4 @@ h1 {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-}
-
-.round-spinner-2:after {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  background-color: #26A69A;
-  -webkit-animation: sk-rotatePlane 1.2s infinite ease-in-out;
-          animation: sk-rotatePlane 1.2s infinite ease-in-out; }
-
-@-webkit-keyframes sk-rotatePlane {
-  0% {
-    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg);
-            transform: perspective(120px) rotateX(0deg) rotateY(0deg); }
-  50% {
-    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
-            transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg); }
-  100% {
-    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
-            transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg); } }
-
-@keyframes sk-rotatePlane {
-  0% {
-    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg);
-            transform: perspective(120px) rotateX(0deg) rotateY(0deg); }
-  50% {
-    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
-            transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg); }
-  100% {
-    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
-            transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg); } }
-
-.round-spinner-3:after {
-  position: absolute;
-  top: -5px;
-  left: -5px;
-  border: 5px solid transparent;
-  border-radius: 50%;
-  border-top-color: #8BC34A;
-  border-left-color: #8BC34A;
-  border: -moz-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 60%);
-  border: -webkit-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 60%);
-  border: -o-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 60%);
-  border: -ms-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 60%);
-  border: linear-gradient(to right, #ffffff 10%, rgba(255, 255, 255, 0) 60%);
-  -webkit-animation: spinner 1s linear infinite;
-          animation: spinner 1s linear infinite;
-
-}
-
-@-webkit-keyframes spinner {
-  0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
-}
-
-@keyframes spinner {
-  0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
-  }
 }
